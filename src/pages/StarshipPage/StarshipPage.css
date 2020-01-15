@@ -1,0 +1,16 @@
+.starship-container {
+    display: flex;
+    margin: 100px auto;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 400px;
+    background-color: #364F4F;
+    color: white;
+    border-radius: 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: underline;
+    font-size: 15px;
+}
