@@ -24,14 +24,16 @@ class App extends Component {
         <header className="App-header">Star Wars Starships</header>
 
         <Route exact path='/' render={() => 
-          this.state.starships.map((starship, idx) => 
-            <Link className='btn btn-default' key={idx} to={{
-                pathname: '/starships',
-                state: starship
-            }}>
-              {starship.name}
-            </Link>
-          )
+          <div className='box'>
+            {this.state.starships.map((starship, idx) => 
+              <Link className='btn btn-default' key={idx} to={{
+                  pathname: '/starships',
+                  state: starship
+              }}>
+                {starship.name}
+              </Link>
+            )}
+          </div>
         }/>
 
         <Route exact path='/starships' render={(props) => 

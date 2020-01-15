@@ -11,3 +11,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.btn {
+  padding-top: 15px;
+  white-space: normal;
+  background-color: #364F4F;
+  color: white;
+  height: 80px;
+  width: 150px;
+  margin: 5px 5px;
+  font-size: 15px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
